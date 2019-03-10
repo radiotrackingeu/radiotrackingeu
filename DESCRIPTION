@@ -1,0 +1,16 @@
+Package: radiotrackingeu
+Type: Package
+Title: Localization for Ecology using Radio-Telemetry 
+Version: 0.1.1
+Date: 2019-02-21
+Author: Freies Institut für Datenanalyse - Dipl.-Phys. Ralf Zeidler
+Maintainer: Ralf Zeidler <ralf.zeidler@fridata.de>
+Description: A more detailed description can be found at www.radio-tracking.eu. This package can be used   
+    for recorded radio tags using automated stations with several antennas mounted. First it can derive the direction of arrival,
+    and afterwards to bi-/triangulate the animals position. Please have a look at the triangulate function and it's example on how it works.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends: R (>= 3.1.0)
+Imports: foreach, doParallel, parallel, stats, sp, utils, rgdal, shiny
